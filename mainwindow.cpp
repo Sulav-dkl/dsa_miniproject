@@ -202,7 +202,7 @@ void MainWindow::displayStudents()
         output += "Roll: " + QString::number(s["roll"].toInt()) + "\n";
         output += "Name: " + s["name"].toString() + "\n";
         output += "GPA: " + QString::number(s["gpa"].toDouble()) + "\n";
-        output += "----------------------------------\n";
+        output += "------------------------------------------------------------\n";
     }
 
     ui->history->setText(output);
